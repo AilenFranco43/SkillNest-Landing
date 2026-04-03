@@ -1,0 +1,82 @@
+# See https://help.github.com/en/articles/ignoring-files#ignoring-files
+# Ignore node_modules
+/node_modules
+
+# Ignore logs
+*.log
+
+# Ignore database files
+*.db
+*.sqlite
+
+# Ignore OS files
+.DS_Store
+.DS_Store?
+*.swp
+.TemporaryItems
+.Trash
+Thumbs.db
+ehthumbs.db
+TheVolumeSettingsFolder
+
+# Ignore user files
+.ssh
+.known_hosts
+
+# Ignore IntelliJ project files
+*.iml
+.idea
+*.ipr
+*.iws
+.out
+
+# Ignore Visual Studio project files
+*.csproj
+*.vbproj
+*.vcxproj
+*.sln
+*.suo
+*.user
+*.userosuo
+*.sln
+*.nupkg
+
+# Ignore build files
+/bin
+/obj
+
+# Ignore NuGet packages
+packages/**
+
+# Ignore npm/yarn
+/node_modules/
+yarn.lock
+yarn-error.log
+pnplogs/
+npm-debug.log
+npm.log
+
+# Ignore tests
+/test-results.xml
+
+# Ignore coverage files
+coverage
+
+# Ignore dist folder
+dist
+
+# Ignore bundler files
+*.bundle.js
+
+# Ignore any files in public folder that are not in .gitignore-public
+public/**
+!public/.gitignore-public
+!public/index.html
+
+# Ignore .gitignore-public
+.gitignore-public
+
+# Ignore Netlify site information
+netlify.toml
+netlify.site.yml
+_netlify/
